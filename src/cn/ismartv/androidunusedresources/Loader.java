@@ -1,0 +1,12 @@
+package cn.ismartv.androidunusedresources;
+
+public class Loader {
+    private Loader() {
+        super();
+    }
+
+    public static void main(final String[] args) {
+        final ResourceScanner resourceScanner = new ResourceScanner();
+        resourceScanner.run();
+    }
+}
